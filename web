@@ -1,0 +1,36 @@
+notes:
+
+src/ is where most of the code will be -> my game code
+
+public/ = served directly to the browser(background music , downloadable pdfs, a favicon)
+
+node_modules= DONT TOUCH THIS  where the npm installed all the libraries 
+
+package.json= will add phaser here. has things like the project name and scripts i can run. its like the projects id card 
+
+main.tsx= entry point. basically whenever someone opens my website it will open the file.
+
+app.tsx= main page of the app
+
+app.css= is the styling for app.tsx
+
+index.css= has the global styles that apply to the whole application.
+
+src/
+│
+├── assets/
+│
+├── components/
+│
+├── game/
+│   ├── scenes/
+│   ├── objects/
+│   ├── data/
+│   └── assets/
+│
+├── App.tsx
+└── main.tsx
+
+
+PHASER= incharge of the artsy side
+REACT= the buttons and features
